@@ -17,7 +17,7 @@ function isPrime(number) {
   }
   return true;
 }
-let number = prompt('Enter number');
+let number = prompt('Введіть Ваше число');
 
 if (isPrime(number)) {
     console.log(`Число ${number} є простим числом`);
